@@ -1,4 +1,4 @@
-package com.mintiestkitkat.spelltags;
+package com.mintiestkitkat.kkspelltags;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;

@@ -1,4 +1,4 @@
-package com.mintiestkitkat.spelltags;
+package com.mintiestkitkat.kkspelltags;
 
 import java.util.List;
 
