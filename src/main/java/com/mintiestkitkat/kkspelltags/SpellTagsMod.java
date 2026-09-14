@@ -1,5 +1,6 @@
 package com.mintiestkitkat.kkspelltags;
 
+import com.mintiestkitkat.kkspelltags.component.ModDataComponents;
 import com.mintiestkitkat.kkspelltags.item.ModItems;
 import org.slf4j.Logger;
 
@@ -29,6 +30,8 @@ public class SpellTagsMod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         ModItems.register(modEventBus);
+
+        ModDataComponents.register(modEventBus);
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
