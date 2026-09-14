@@ -1,0 +1,91 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "kkspelltags:block/inscription_table_bottom",
+		"2": "kkspelltags:block/inscription_table_legs",
+		"particle": "kkspelltags:block/inscription_table_top"
+	},
+	"elements": [
+		{
+			"name": "legNW",
+			"from": [2, 0, 2],
+			"to": [5, 11, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"north": {"uv": [0, 16, 11, 13], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [0, 13, 11, 16], "rotation": 90, "texture": "#2"},
+				"south": {"uv": [0, 16, 11, 13], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [0, 13, 11, 16], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [12, 12, 15, 15], "texture": "#2"},
+				"down": {"uv": [12, 12, 15, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "legNE",
+			"from": [11, 0, 2],
+			"to": [14, 11, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 0, 2]},
+			"faces": {
+				"north": {"uv": [0, 13, 11, 16], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [0, 16, 11, 13], "rotation": 90, "texture": "#2"},
+				"south": {"uv": [0, 13, 11, 16], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [0, 16, 11, 13], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [12, 12, 15, 15], "texture": "#2"},
+				"down": {"uv": [12, 12, 15, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "legSW",
+			"from": [2, 0, 11],
+			"to": [5, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 11]},
+			"faces": {
+				"north": {"uv": [0, 13, 15, 16], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [0, 16, 15, 13], "rotation": 90, "texture": "#2"},
+				"south": {"uv": [0, 13, 15, 16], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [0, 16, 15, 13], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [12, 12, 15, 15], "texture": "#2"},
+				"down": {"uv": [12, 12, 15, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "legSE",
+			"from": [11, 0, 11],
+			"to": [14, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 0, 11]},
+			"faces": {
+				"north": {"uv": [0, 16, 15, 13], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [0, 13, 15, 16], "rotation": 90, "texture": "#2"},
+				"south": {"uv": [0, 16, 15, 13], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [0, 13, 15, 16], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [12, 12, 15, 15], "texture": "#2"},
+				"down": {"uv": [12, 12, 15, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "top",
+			"from": [0, 12, 2],
+			"to": [16, 16, 18],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#2"},
+				"east": {"uv": [0, 4, 16, 8], "texture": "#2"},
+				"south": {"uv": [0, 4, 16, 8], "texture": "#2"},
+				"west": {"uv": [0, 4, 16, 8], "texture": "#2"},
+				"up": {"uv": [0, 1, 16, 14], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "drape",
+			"from": [0, 9.1, -0.61],
+			"to": [16, 13.1, -0.61],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 11.1, -0.65]},
+			"faces": {
+				"north": {"uv": [0, 8, 16, 12], "texture": "#2"},
+				"south": {"uv": [0, 8, 16, 12], "texture": "#2"}
+			}
+		}
+	]
+}
